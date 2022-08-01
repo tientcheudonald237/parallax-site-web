@@ -1,0 +1,106 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#main{
+    width: 100vw;
+    height: 100vh;
+    font-style: normal;
+    font-weight: normal;
+    font-family: 16px Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.miel{
+    text-align: center;
+    background-color: #ddd;
+    color: #fff;
+    width: 70%;
+    font-size: 13px;
+    height: 75px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center ;
+    align-content: center;
+}
+
+#j1{
+    background-image: url(./img/image1.jpg);
+    width: 100%;
+    height: 100vh;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center ;
+    align-content: center;
+}
+
+#j2{
+    background-image: url(./img/image2.jpg);
+    width: 100%;
+    height: 100vh;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content:flex-start ;
+    align-content: flex-start;
+    gap: 15vh;
+}
+
+.sec{
+    background-color: #282E34;
+    height: 45vh;
+    width: 100vw;
+    text-align: center;
+    color: #fff;
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content:space-evenly ;
+    align-content: center;
+    
+}
+
+#j3{
+    background-image: url(./img/image3.jpg);
+    width: 100%;
+    height: 100vh;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content:flex-start ;
+    align-content: flex-start;
+    gap: 15vh;
+}
+
+.sec + h1{
+    text-align: center;
+    width: 100vw;
+    color: #fff;
+}
+
+#j4{
+    width: 100%;
+    height: 50vh;
+    background-attachment: fixed;
+    background-image: url(./img/image1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content:flex-start ;
+    align-content: flex-start;
+    gap: 15vh;
+}
